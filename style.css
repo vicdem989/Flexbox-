@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-color: slategray;
+    margin: 0;
+    padding: 0px;
+}
+
+.parent {
+    background-color: rgb(146, 161, 175);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.child1 {
+    border: 5px solid black;
+    border-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.child2 {
+    border: 5px solid black;
+    border-color: green;
+    width: 100px;
+    height: 100px;
+}
+
+.child3 {
+    border: 5px solid black;
+    border-color: rgb(163, 117, 31);
+    width: 100px;
+    height: 100px;
+}
+
+nav ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav a:hover {
+    transition: all 0.5s ease 0s;
+    color: orange;
+}
+
+
+
+
+
+
